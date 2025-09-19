@@ -25,6 +25,41 @@ This document outlines the design for a pyramid-themed surface biome, expanding 
 1. **Base Building:** Place and upgrade mining machinery, staff shelters, and research tents.
 2. **Resource Management:** Allocate fuel, assign staff, manage supply lines.
 3. **Exploration:** Discover hidden entrances, archaeological clues, and rare resources above ground.
+4. ## Upgrade System
+
+### Purpose
+To provide meaningful progression, player goals, and a core monetization hook through permanent improvements.
+
+### Upgrade Categories
+| Category          | Examples                          | Effect                                  |
+|-------------------|-----------------------------------|-----------------------------------------|
+| **Drill**         | Basic → Diamond Drill            | Dig speed + break tougher rocks        |
+| **Fuel Tank**     | Small → Reinforced Tank          | Longer digging sessions                |
+| **Cargo Hold**    | Bag → Wagon                      | Carry more ore per trip                |
+| **Scanner**       | Basic Radar → Sonar              | Reveal hidden ore & chambers           |
+| **Artifact Tools**| Brush → X-Ray Scanner            | Extract artifacts safely               |
+
+### Economy
+- Upgrades purchased with **Gold** (from selling ore)
+- Higher tiers may require **Gems** or **Artifacts** found deeper underground
+
+---
+
+## Task & Objective System
+
+### Task Board
+Accessible from the surface camp UI. Offers:
+
+- **Daily Tasks**: "Mine 50 Gold Ore" → Reward: Gold + Premium Currency
+- **Story Objectives**: "Reach the Burial Chamber" → Unlocks new area
+- **Biome Challenges**: "Excavate 5 Golden Scarabs" → Exclusive skin
+
+### Staff Assignments
+Assign staff to roles for bonuses:
+
+- **Geologists**: Increase rare ore discovery
+- **Engineers**: Drill durability + fuel efficiency
+- **Archeologists**: Uncover clues and artifacts faster
 
 ### Underground Integration
 - Surface actions affect underground progression:
