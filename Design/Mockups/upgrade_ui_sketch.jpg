@@ -1,0 +1,15 @@
+# Upgrade Shop UI Mockup
+
+[Imagine a mobile screen mockup here]
+
+## Layout Description:
+- **Background:** Desert-themed with pyramid silhouette
+- **Header:** "UPGRADES" in large, bold font
+- **List of Upgrades:** Each has an icon, name, level, cost, and "Buy" button
+  - [DRILL ICON] Diamond Drill (Lvl 3) - Cost: 1,500 Gold [BUY]
+  - [FUEL ICON] Reinforced Tank (Lvl 2) - Cost: 800 Gold [BUY]
+- **Bottom Navigation Bar:** Links to Main Dig Screen, Map, Shop, Tasks
+
+## Functionality:
+- Tapping "BUY" purchases the upgrade if player has enough gold.
+- Upgrades are grayed out if not affordable or not unlocked.
